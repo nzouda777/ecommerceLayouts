@@ -23,7 +23,7 @@ use Drupal\formatage_models\Plugin\Layout\FormatageModels;
  *  
  * )
  */
-    class ecommercePage extends FormatageModels
+    class ecommercePage extends FormatageModelsPage
     {
 
     }
