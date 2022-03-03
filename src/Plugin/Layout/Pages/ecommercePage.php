@@ -2,17 +2,18 @@
 
 namespace Drupal\ecommercelayouts\Plugin\Layout\Pages;
 
-use Drupal\formatage_models\Plugin\Layout\FormatageModels;
+use Drupal\formatage_models\Plugin\Layout\Pages\FormatageModelsPages;
+
 
 /**
- * E-commerce layout page
+ * E-commerce layout page header
  * 
  * @Layout(
  * 
  *  id = "ecommercelayout_page",
  *  label = @Translation("E-commerce Home Page"),
  *  category = @Translation("ecommerce layout"),
- *  path = "layouts/pages",
+ *  path = "layouts/header",
  *  template = "ecommercelayouts/header",
  *  default_region = "header",
  *  regions = {
@@ -23,7 +24,7 @@ use Drupal\formatage_models\Plugin\Layout\FormatageModels;
  *  
  * )
  */
-    class ecommercePage extends FormatageModelsPage
+    class ecommercePage extends FormatageModelsPages
     {
 
     }
