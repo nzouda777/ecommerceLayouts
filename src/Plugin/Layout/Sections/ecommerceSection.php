@@ -2,7 +2,7 @@
 
 namespace Drupal\ecommercelayouts\Plugin\Layout\Sections;
 
-use Drupal\formatage_models\Plugin\Layout\Pages\FormatageModelsPages;
+use Drupal\formatage_models\Plugin\Layout\Sections\FormatageModelsSection;
 
 /**
  * E-commerce layout section
@@ -23,7 +23,7 @@ use Drupal\formatage_models\Plugin\Layout\Pages\FormatageModelsPages;
  *  
  * )
  */
-    class ecommerceSection extends FormatageModelsPages
+    class ecommerceSection extends FormatageModelsSection
     {
 
     }
